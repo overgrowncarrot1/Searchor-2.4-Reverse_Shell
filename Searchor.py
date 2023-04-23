@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 import importlib.util
 
 #install libaries if not installed
+print("Installing necessary tools if not already installed")
 package_name = 'colorama'
 spec = importlib.util.find_spec(package_name)
 if spec is None:
